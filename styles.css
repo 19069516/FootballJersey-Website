@@ -1,0 +1,97 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+#product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+/* Premier Leauge Card */
+.product-card:nth-child(1) {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 15px;
+    width: 120px;
+    height: 120px;
+    background-color: #04f5ff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.product-image:nth-child(1) {
+    width: 100%;
+    height: 100px;
+    object-fit:cover;
+    border-radius: 4x;
+}
+
+.product-title:nth-child(1) {
+    font-size:0.7em;
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+/* La Liga Card */
+.product-card:nth-child(2) {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 15px;
+    width: 120px;
+    height: 120px;
+    background-color: #000000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.product-image:nth-child(2) {
+    width: 100%;
+    height: 100px;
+    object-fit:cover;
+    border-radius: 4x;
+}
+.product-title:nth-child(2) {
+    font-size:0.7em;
+    margin: 10px 0;
+    padding-left: 20px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+
+
+
+
+.product-price {
+    color: #007bff;
+    font-weight: bold;
+}
+
+.button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px 16px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
